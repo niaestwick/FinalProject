@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* unvisited link */
+a:link {
+  color:black;
+    text-decoration:underline;
+}
+
+
+/* mouse over link */
+a:hover {
+  color: mediumpurple;
+}
+
+
+/*Homepage Sidebar*/
+#left {width: 50%;
+float: left;
+box-sizing: border-box;
+}
+
+/*Food Video*/
+
+#right {
+float: right;
+}
+ 
+body{background-color: lightgray;
+}
+
+/*sidebar*/
+
+ #side {width: 33.3%;
+float: left
+ }
+
+
+/*content*/
+
+#content {width: 66.6%;
+float: right;
+column-count: 3;
+
+}

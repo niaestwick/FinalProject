@@ -1,21 +1,32 @@
 @charset "UTF-8";
 /* CSS Document */
 
+h1 {font-family: 'Abril Fatface', cursive;}
+body{font-family: 'Source Sans Pro', sans-serif;}
+
 /* unvisited link */
 a:link {
   color:black;
     text-decoration:underline;
 }
 
+/* visited link */
+
+a:visited
+{color: black;
+text-decoration:underline;
+}
+
 
 /* mouse over link */
-a:hover {
-  color: mediumpurple;
+a:hover 
+{color:mediumpurple;
 }
 
 
 /*Homepage Sidebar*/
-#left {width: 50%;
+#left 
+{width: 50%;
 float: left;
 box-sizing: border-box;
 }
@@ -26,12 +37,14 @@ box-sizing: border-box;
 float: right;
 }
  
-body{background-color: lightgray;
+body
+{background-color: lightgray;
 }
 
 /*sidebar*/
 
- #side {width: 33.3%;
+ #side 
+ {width: 33.3%;
 float: left
  }
 
@@ -43,3 +56,13 @@ float: right;
 column-count: 3;
 
 }
+
+#contactleft
+{float: left;
+width: 50%;}
+
+#contact
+{float: right;
+  width: 50%;
+text-align: center;
+text-decoration: none;}

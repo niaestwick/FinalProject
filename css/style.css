@@ -43,7 +43,7 @@ float: right
 }
  
 #bg {
-background-image: linear-gradient(to right,gainsboro , rgb(12, 10, 10));
+background-image: linear-gradient(to right,gainsboro , rgba(12, 10, 10, 0.945));
 }
 
 
@@ -67,7 +67,7 @@ column-count: 3;
 /*contact page*/
 
 #contactdiv
-{background-color: gainsboro ;
+{background-image: linear-gradient(to left,gainsboro , rgba(0, 0, 0, 0.877))
 }
 
 

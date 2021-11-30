@@ -51,16 +51,19 @@ background-image: linear-gradient(to right,gainsboro , rgba(12, 10, 10, 0.945));
 /*sidebar*/
 
  #side 
- {width: 33.3%;
-float: left
+ {width: 28%;
+float: left;
+position: sticky;
+top: 0;
  }
 
 
 /*content*/
 
-#content {width: 66.6%;
+#content {width: 70%;
 float: right;
 column-count: 3;
+margin-right: 15px;
 
 }
 

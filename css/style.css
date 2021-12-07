@@ -1,8 +1,10 @@
 @charset "UTF-8";
 /* CSS Document */
 
-h1 {font-family: 'Abril Fatface', cursive;}
-body{font-family: 'Source Sans Pro', sans-serif;}
+h1 {font-family: 'Abril Fatface', cursive;
+color: white;}
+body{font-family: 'Source Sans Pro', sans-serif;
+color: white;}
 
 /* nav list */
 ul { list-style-type: none;
@@ -11,14 +13,14 @@ padding: 0;}
 
 /* unvisited link */
 a:link {
-  color:black;
+  color:white;
     text-decoration:underline;
 }
 
 /* visited link */
 
 a:visited
-{color: black;
+{color:white;
 text-decoration:underline;
 }
 
@@ -43,10 +45,11 @@ float: right
 }
  
 #bg {
-background-image: linear-gradient(to right,gainsboro , rgba(12, 10, 10, 0.945));
+background-color: black
 }
 
-
+img {padding: 2px;
+}
 
 /*sidebar*/
 
@@ -64,13 +67,14 @@ top:auto;
 float: right;
 column-count: 3;
 margin-right: 15px;
-
+column-gap: 0px;
+background-color: black;
 }
 
 /*contact page*/
 
 #contactdiv
-{background-image: linear-gradient(to left,gainsboro , rgba(0, 0, 0, 0.877))
+{background-color: black;
 }
 
 
